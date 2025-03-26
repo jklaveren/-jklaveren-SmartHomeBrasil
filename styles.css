@@ -1,0 +1,32 @@
+/* styles.css */
+
+/* Definindo o fundo de imagem responsivo */
+.section-bg {
+    background-image: url('C:\Users\PEDRA\Desktop\SmartHomeBrasil\imagens\imagem1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4rem 0;
+}
+
+/* Ajustando a imagem */
+.img-responsiva {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+/* Estilo do botão */
+.botao {
+    background-color: #1D4ED8;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #2563EB;
+}
