@@ -1,64 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="geo.region" content="BR-RS" />
-    <meta name="geo.placename" content="São Leopoldo" />
-    <meta name="geo.position" content="29.7689;-51.1469" />
-    <meta name="ICBM" content="29.7689, -51.1469" />
-    <meta name="description" content="SmartHome Brasil oferece soluções de automação residencial em São Leopoldo, RS. Transforme sua casa com tecnologia inteligente e personalizada, com foco em segurança, conforto e economia de energia.">
-    <meta name="keywords" content="automação residencial São Leopoldo, casas inteligentes São Leopoldo, segurança inteligente Rio Grande do Sul, automação residencial RS, economia de energia São Leopoldo, soluções em automação São Leopoldo, SmartHome RS">
-    <title>SmartHome Brasil - Automação Residencial</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  </head>
-  <body class="bg-gray-50 text-gray-800">
-    <header class="bg-white shadow p-6">
-      <div class="container mx-auto flex justify-between items-center">
-        <h1 class="text-2xl font-bold text-blue-600">SmartHome Brasil</h1>
-        <nav class="space-x-4">
-          <a href="#vantagens" class="text-blue-600 hover:underline">Vantagens</a>
-          <a href="#seguranca" class="text-blue-600 hover:underline">Segurança</a>
-          <a href="#conforto" class="text-blue-600 hover:underline">Conforto</a>
-          <a href="#economia" class="text-blue-600 hover:underline">Economia</a>
-          <a href="#produtos" class="text-blue-600 hover:underline">Portfólio</a>
-          <a href="/linktree.html" class="text-blue-600 hover:underline">Links Úteis</a>
-          <a href="#form" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Quero Saber Mais</a>
-        </nav>
-      </div>
-    </header>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartHome Brasil</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-white shadow-md py-6">
+    <div class="max-w-6xl mx-auto px-4">
+      <h1 class="text-3xl font-bold text-blue-600">SmartHome Brasil</h1>
+      <p class="text-sm text-gray-600">Automação acessível para sua casa ou empresa</p>
+    </div>
+  </header>
 
-    <section class="text-center py-16 px-4">
-      <h2 class="text-4xl font-bold mb-4">Automação Residencial Acessível e Inteligente</h2>
-      <p class="text-lg max-w-2xl mx-auto">Transforme sua casa com tecnologia de ponta, preços acessíveis e atendimento personalizado. Controle iluminação, segurança, clima e muito mais com um toque ou comando de voz.</p>
-      <img src="imagem1.png" alt="Sala automatizada" class="mt-8 rounded shadow mx-auto w-full max-w-3xl">
-    </section>
+  <section class="max-w-6xl mx-auto px-4 py-8 grid md:grid-cols-3 gap-6">
+    <img src="img/imagem1.png" alt="Ambiente moderno com automação" class="rounded-xl shadow-md">
+    <img src="img/imagem2.png" alt="Segurança via app em casa inteligente" class="rounded-xl shadow-md">
+    <img src="img/imagem3.png" alt="Eficiência energética com IoT" class="rounded-xl shadow-md">
+  </section>
 
-    <section class="py-12 bg-white px-4" id="vantagens">
-      <div class="container mx-auto grid md:grid-cols-3 gap-8 text-center">
-        <a href="#seguranca" class="block hover:bg-gray-100 p-4 rounded">
-          <h3 class="text-xl font-semibold mb-2">Segurança Inteligente</h3>
-          <p>Monitoramento 24h com câmeras, sensores e fechaduras digitais.</p>
-        </a>
-        <a href="#conforto" class="block hover:bg-gray-100 p-4 rounded">
-          <h3 class="text-xl font-semibold mb-2">Conforto e Controle</h3>
-          <p>Automatize luzes, ar-condicionado, som ambiente e muito mais.</p>
-        </a>
-        <a href="#economia" class="block hover:bg-gray-100 p-4 rounded">
-          <h3 class="text-xl font-semibold mb-2">Economia de Energia</h3>
-          <p>Otimize o consumo com painéis solares e tomadas inteligentes.</p>
-        </a>
-      </div>
-    </section>
+  <section id="form" class="bg-white py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4 text-blue-600">Fale conosco</h2>
+      <p class="mb-6 text-gray-600">Nos envie sua dúvida ou solicitação e entraremos em contato pelo WhatsApp.</p>
+      <form action="https://api.whatsapp.com/send" method="get" target="_blank" class="grid gap-4">
+        <input type="hidden" name="phone" value="5551999999999">
+        <input type="text" name="text" placeholder="Digite sua mensagem..." required class="p-3 border border-gray-300 rounded-lg w-full">
+        <button type="submit" class="bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition">Enviar para o WhatsApp</button>
+      </form>
+    </div>
+  </section>
 
-    <section class="py-12 bg-gray-100 px-4" id="seguranca">
-      <div class="container mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-8">Segurança Inteligente</h2>
-        <p class="text-lg max-w-2xl mx-auto">Nosso sistema de segurança inteligente inclui câmeras de monitoramento, sensores de presença e fechaduras digitais integrados ao seu smartphone.</p>
-        <img src="imagem2.png" alt="Segurança inteligente" class="mt-6 rounded shadow mx-auto w-full max-w-2xl">
-      </div>
-    </section>
-
+  
     <section class="py-12 bg-white px-4" id="economia">
       <div class="container mx-auto text-center">
         <h2 class="text-3xl font-bold mb-8">Economia de Energia</h2>
